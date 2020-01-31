@@ -1,0 +1,21 @@
+{
+  "name": "streamnode",
+  "version": "1.0.0",
+  "description": "Streaming media for 480",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wallace Wallace",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  },
+    "scripts" : {
+        "start" : "node ./src/server.js",
+        "pretest" : "eslint ./src --fix",
+        "test" : "echo \"Tests complete\""
+     }
+}
