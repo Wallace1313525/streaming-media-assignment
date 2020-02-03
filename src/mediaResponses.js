@@ -156,5 +156,5 @@ const getBling = (request, response) => {
 
 
 module.exports.getParty = getParty;
-module.exports.getBling = getgetBling;
+module.exports.getBling = getBling;
 module.export.getBird = getBird;
